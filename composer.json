@@ -1,0 +1,30 @@
+{
+    "name": "dipesh79/laravel-softdelete-action",
+    "description": "A Laravel package to handle cascading, SET NULL, RESTRICT, NO ACTION, and SET DEFAULT behaviors for SoftDeletes in Eloquent relationships, with support for record restoration and cleanup actions.",
+    "keywords": ["laravel", "softdelete", "softdelete action", "softdelete action laravel", "softdelete action eloquent", "softdelete action eloquent laravel"],
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Dipesh79\\LaravelSoftDeleteAction\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dipesh Khanal",
+            "email": "dipeshkhanal79@gmail.com",
+            "homepage": "https://khanaldipesh.com.np",
+            "role": "Maintainer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dipesh79\\LaravelSoftDeleteAction\\LaravelSoftDeleteActionServiceProvider"
+            ]
+        }
+    }
+}
